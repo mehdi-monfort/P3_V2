@@ -31,15 +31,9 @@ class Level:
         """ allows the display of sprites """
         wall = pygame.image.load("sprites/wall.jpg").convert()
         path = pygame.image.load("sprites/ground.jpg").convert()
-<<<<<<< HEAD
         syringue = pygame.image.load("sprites/syringue.jpg").convert()
         ether = pygame.image.load("sprites/ether.jpg").convert()
         tube = pygame.image.load("sprites/tube.jpg").convert()
-=======
-        propeller = pygame.image.load("sprites/propeller.png").convert()
-        magnet = pygame.image.load("sprites/magnet.png").convert()
-        battery = pygame.image.load("sprites/battery.png").convert()
->>>>>>> 17dc858d9aa9ea1bef39ad2d8d301bfc1a41e1be
         player = pygame.image.load("sprites/macgyver.png").convert_alpha()
         guardian = pygame.image.load("sprites/guardian.jpg").convert_alpha()
         hud = pygame.image.load("sprites/hud.jpg").convert()

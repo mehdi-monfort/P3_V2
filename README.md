@@ -35,13 +35,5 @@ Defeat the guardian and get out of this infernal labyrinthe.***
      - " " is a path
 
   ***Warning: the last line represents the hud (not the modified).***
+  
 ===============================================================================================================
-=======
-      "S" is MacGyver
-      "A" is the guardian
-      "+" is a wall
-      " " is a path
-
-  ***Warning: the last line represents the hud (not the modified).***
-===============================================================================================================
->>>>>>> 17dc858d9aa9ea1bef39ad2d8d301bfc1a41e1be

@@ -1,5 +1,4 @@
-""" module constant: """
-""" used to give the different constants of the game. """
+""" module constant: used to give the different constants of the game. """
 
 WINDOW = (300, 320)
 SPRITE = 20
