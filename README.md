@@ -28,7 +28,6 @@ Defeat the guardian and get out of this infernal labyrinthe.***
 
    - Open the laby.txt file
    - edit the maze using:
-<<<<<<< HEAD
      - "S" is MacGyver
      - "A" is the guardian
      - "+" is a wall
