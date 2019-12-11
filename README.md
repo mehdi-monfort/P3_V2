@@ -9,13 +9,13 @@ Defeat the guardian and get out of this infernal labyrinthe.***
 **Using the game:**
 
   - Create a virtual environment:
-    linux, mac: virtualenv -p python3 env
-    windows(powershell): virtualenv -p $env:python3 env
+    *linux, mac: virtualenv -p python3 env*
+    *windows(powershell): virtualenv -p $env:python3 env*
   - Activate a virtual environment:
-    linux, mac: source env/bin/activate
-    windows(powershell): ./env/scripts/activate.ps1
+    *linux, mac: source env/bin/activate*
+    *windows(powershell): ./env/scripts/activate.ps1*
   - clone the project with https://github.com/mehdi-monfort/project3.git
-  - Install dependencies: pip install -r requirements.txt
+  - Install dependencies: *pip install -r requirements.txt*
   - open the main file: macgyver.py
 
 ==================================================================================================
