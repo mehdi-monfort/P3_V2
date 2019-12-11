@@ -1,8 +1,8 @@
 **Help MacGyver to escape!**
 
-***Welcome to the wonderful maze of Macgyver.
-He will have to find the three different elements and thus...
-Defeat the guardian and get out of this infernal labyrinthe.***
+***Welcome to the wonderful maze of Macgyver.***
+***He will have to find the three different elements and thus...***
+***Defeat the guardian and get out of this infernal labyrinthe.***
 
 ==============================================================================================
 
