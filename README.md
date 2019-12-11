@@ -23,19 +23,19 @@ Defeat the guardian and get out of this infernal labyrinthe.***
 **How to play:**
 
   - Use the directional arrows on the keyboard for deplace MacGyver.
-  - Collect the 3 elements to be able to face the guardian
-    or you will die and the game will start again.
-  - When you win the game ends.
+  - Collect the 3 elements to be able to face the guardian.
+  - If you do not have all the objects, you die and the game is restarted.
+  - When you win, the game ends.
   - To exit, use the escape key.
 
 ==============================================================================================
 
-**To create a new level:**
+**To change the level:**
 
    - Open the laby.txt file
    - edit the maze using:
-     - "S" is MacGyver
-     - "A" is the guardian
+     - "S" is Start, MacGyver
+     - "A" is Arrival, the guardian
      - "+" is a wall
      - " " is a path
 
