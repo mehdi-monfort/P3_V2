@@ -4,7 +4,7 @@
 He will have to find the three different elements and thus...
 Defeat the guardian and get out of this infernal labyrinthe.***
 
-===============================================================================================
+==============================================================================================
 
 **Using the game:**
 
@@ -18,7 +18,7 @@ Defeat the guardian and get out of this infernal labyrinthe.***
   - Install dependencies: pip install -r requirements.txt
   - open the main file: macgyver.py
 
-===============================================================================================
+==============================================================================================
 
 **How to play:**
 
@@ -28,7 +28,7 @@ Defeat the guardian and get out of this infernal labyrinthe.***
   - When you win the game ends.
   - To exit, use the escape key.
 
-===============================================================================================
+==============================================================================================
 
 **To create a new level:**
 
@@ -41,4 +41,4 @@ Defeat the guardian and get out of this infernal labyrinthe.***
 
   ***Warning: the last line represents the hud (not the modified).***
   
-===============================================================================================
+==============================================================================================
