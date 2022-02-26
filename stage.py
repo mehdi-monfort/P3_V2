@@ -43,11 +43,11 @@ class Level:
             for n_col, square in enumerate(line):
                 square_x = n_lin * constant.SPRITE
                 square_y = n_col * constant.SPRITE
-                if square in "+":
+                if square in ["+"]:
                     screen.blit(wall, (square_y, square_x))
                 elif square in [" ", "S"]:
                     screen.blit(path, (square_y, square_x))
-                elif square in "A":
+                elif square in ["A"]:
                     screen.blit(guardian, (square_y, square_x))
                 elif square in ["e", "1"]:
                     screen.blit(ether, (square_y, square_x))
@@ -57,7 +57,7 @@ class Level:
                     screen.blit(tube, (square_y, square_x))
                 elif square in ["h", "u", "d", "/"]:
                     screen.blit(hud, (square_y, square_x))
-                elif square in "5":
+                elif square in ["5"]:
                     screen.blit(stars, (square_y, square_x))
                 if (n_lin, n_col) == (mac.tile_y, mac.tile_x):
                     screen.blit(player, (square_y, square_x))
@@ -69,30 +69,19 @@ maze = Level()
 class Items:
     """ allows the management of objects in the maze """
     def __init__(self):
-        self.laby = maze.laby
-        self.ether_x = self.ether_y = 0
-        self.tube_x = self.tube_y = 0
-        self.syringue_x = self.syringue_y = 0
+        self.maze = maze.laby
+        self.items = ("e", "s", "t")
+        self.item_x = self.item_y = " "
+        self.place = []
 
-    def drop_ether(self, maze):
-        """ drop the ether in the maze """
-        ether = "e"
-        self.ether_x, self.ether_y = random.choice(maze.item)
-        self.laby[self.ether_y][self.ether_x] = ether
-
-    def drop_tube(self, maze):
-        """ drop the tube in the maze """
-        tube = "t"
-        self.tube_x, self.tube_y = random.choice(maze.item)
-        self.laby[self.tube_y][self.tube_x] = tube
-
-    def drop_syringue(self, maze):
-        """ drop the syringue in the maze """
-        syringue = "s"
-        self.syringue_x, self.syringue_y = random.choice(maze.item)
-        self.laby[self.syringue_y][self.syringue_x] = syringue
+    def drop_item(self, maze):
+        """ drop item in the maze """
+        for item in self.items:
+            self.item_x, self.item_y = random.choice(maze.item)
+            self.maze[self.item_y][self.item_x] = item
+            self.place.append([self.item_y, self.item_x])
 
     def drop_reset(self, maze):
-        self.laby[self.ether_y][self.ether_x] = " "
-        self.laby[self.tube_y][self.tube_x] = " "
-        self.laby[self.syringue_y][self.syringue_x] = " "
+        print(self.place)
+        for x, y in self.place:
+            self.maze[x][y] = " "

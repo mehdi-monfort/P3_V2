@@ -22,9 +22,7 @@ def main():
         items = stage.Items()
         mac = player.Character(stage.maze)
         stage.maze.display(screen, mac)
-        items.drop_ether(stage.maze)
-        items.drop_tube(stage.maze)
-        items.drop_syringue(stage.maze)
+        items.drop_item(stage.maze)
 
         while run:
             for event in pygame.event.get():
